@@ -1,15 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-@author: Marcos F. Caetano (mfcaetano@unb.br) 03/11/2020
-
-@description: PyDash Project
-
-Abstract Class for R2A (Rate Adaptation Algorithms) implementations
-
-It is necessary to implement all the @abstractmethod methods to generate a new R2A Algorithm implementation
-
-"""
-
 from r2a.ir2a import IR2A
 from player.parser import *
 import time
