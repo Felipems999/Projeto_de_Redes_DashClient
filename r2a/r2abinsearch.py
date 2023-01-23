@@ -15,7 +15,7 @@ from player.parser import *
 import time
 
 
-class R2AMedia(IR2A):
+class R2ABinSearch(IR2A):
 
     def __init__(self, id):
         IR2A.__init__(self, id)
