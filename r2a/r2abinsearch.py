@@ -11,7 +11,7 @@ class R2ABinSearch(IR2A):
         self.qi = []
         self.tput = 0
         self.time_req = 0
-        self.index = int(10)
+        self.index = int(self.qi.__len__()/2)
 
     def handle_xml_request(self, msg):
 
